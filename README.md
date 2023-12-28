@@ -1,5 +1,8 @@
 # Deep Depth from Focal Stack with Defocus Model for Camera Setting Invariance
-This is the official pytorch implmentation of "Deep Depth from Focal Stack with Defocus Model for Camera-Setting Invariance," IJCV.
+![teaser](figure/teaser.png)
+This is the official pytorch implementation of "**Deep Depth from Focal Stack with Defocus Model for Camera-Setting Invariance**," IJCV.
+
+### [Paper](https://link.springer.com/article/10.1007/s11263-023-01964-x?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20231228&utm_content=10.1007/s11263-023-01964-x) | [arXiv](https://arxiv.org/abs/2202.13055)
 
 ## Requirements
 ```
@@ -67,7 +70,7 @@ python test.py checkpoint --dataset NYU_DEPTH_V2
 ```
 cd dataset/NikonD5300
 ```
-Our focal stacks captured with Nikon D5300 can be download [here](https://1drv.ms/f/s!All-2gyfiqoigcIsNtEA0VagWoekUw?e=aYd991).
+Our focal stacks captured with Nikon D5300 can be downloaded [here](https://1drv.ms/f/s!All-2gyfiqoigcIsNtEA0VagWoekUw?e=aYd991).
 ```
 tar -zxvf nikon_focal_stack.tar.gz
 ```
