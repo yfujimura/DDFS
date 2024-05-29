@@ -15,7 +15,7 @@ h5py
 ```
 
 ## Download trained models
-Our trained model can be downloaded [here](https://1drv.ms/f/s!All-2gyfiqoigcIsNtEA0VagWoekUw?e=aYd991).
+Our trained model can be downloaded [here](https://1drv.ms/f/c/22aa8a9f0cda7e59/Ell-2gyfiqoggCIsYQAAAAABxGPfFAXTa_2Gmb05lMmeoQ?e=de3Qom).
 ```
 tar -zxvf checkpoint.tar.gz
 ```
@@ -53,7 +53,7 @@ Download the original dataset:
 ```
 wget http://horatio.cs.nyu.edu/mit/silberman/nyu_depth_v2/nyu_depth_v2_labeled.mat
 ```
-Download focal stacks [here](https://1drv.ms/f/s!All-2gyfiqoigcIsNtEA0VagWoekUw?e=aYd991) (the script to synthesize them is in [https://github.com/marcelampc/d3net_depth_estimation](https://github.com/marcelampc/d3net_depth_estimation))
+Download focal stacks [here](https://1drv.ms/f/c/22aa8a9f0cda7e59/Ell-2gyfiqoggCIsYQAAAAABxGPfFAXTa_2Gmb05lMmeoQ?e=de3Qom) (the script to synthesize them is in [https://github.com/marcelampc/d3net_depth_estimation](https://github.com/marcelampc/d3net_depth_estimation))
 ```
 tar -zxvf focal_stack.tar.gz
 ```
@@ -70,7 +70,7 @@ python test.py checkpoint --dataset NYU_DEPTH_V2
 ```
 cd dataset/NikonD5300
 ```
-Our focal stacks captured with Nikon D5300 can be downloaded [here](https://1drv.ms/f/s!All-2gyfiqoigcIsNtEA0VagWoekUw?e=aYd991).
+Our focal stacks captured with Nikon D5300 can be downloaded [here](https://1drv.ms/f/c/22aa8a9f0cda7e59/Ell-2gyfiqoggCIsYQAAAAABxGPfFAXTa_2Gmb05lMmeoQ?e=de3Qom).
 ```
 tar -zxvf nikon_focal_stack.tar.gz
 ```
